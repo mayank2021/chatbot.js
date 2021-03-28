@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBoat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+		<div class="hello">
+			<img src="images/hello.svg" alt="hello" class="hello-img">
+		  </div>
+		  <div class="hello-text">Hello!!</div>
+		  <h1 class="welcome">Welcome!!</h1>
+	</div>
+	  <div class="hello-text">Hello!!</div>
+	  <div class="welcome-div">
+		<img class="chatbot-img mobile" src="images/chatbot.svg" alt="chatbot">
+        <div class="welcome-text">
+			<h1>Hello! I'm Mayank, a bot.</h1>
+			<h3>I am really excited to having a talk with you.</h3>
+			<p>If you have some time please stay with me for a while.<br/>I love conversation with new peopls. <br/>let's start.</p>
+		</div>
+		<button class="chat-btn-div" id="chat-btn">Let's chat
+		</button> 
+		<img class="chatbot-img desktop" src="images/chatbot.svg" alt="chatbot">
+	  </div>
+	<div id="container" class="container">
+		<button class="remove-btn" id="remove">
+			<img class="remove" src="images/remove.svg" alt="remove">
+		</button>
+		<div id="chat" class="chat">
+			<div id="messages" class="messages"></div>
+			<div class="message-tool-bar">
+			<input  id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
+			<button id="send" class="send"><img class="send-img" src="images/send.svg" alt="send"></button>
+		</div>
+		</div>
+	</div>
+	<div class="footer">&COPY; 2021 Mayank Sonkar.</div>
+</body>
+<script src="app.js"></script>
+<script src="constants.js"></script>
+<script src="speech.js"></script>
+</html>
